@@ -1,32 +1,27 @@
-# Note-taker
-This is node functions that will assist in creating a README!
+# Note Taker!!!
+
+link: 
 
 ## Description
-Node functions that can assist a user in creating a professional and in-depth README for projects/repositories!
+In this application  you can create and manage notes that you need to jot down! 
+Whether it be something as simple as a phone number or maybe something as complex as a to-do list!
 
 ## Usage
-Create an awesome and in-depth README!
+Begin by selecting the button to take you to the notes page! Here you can edit the title and contents
+of the nest that you are currently writing. Once finished you can click the save icon and see your note
+populate within the list!
 
-## Installation
-First clone the GH Repo! > Open an integrated terminal inside the repository directory you cloned onto your machine! > Once in the terminal, make sure to install with the command `npm i`
+### Note taker home page!!!
+![Home page for note taker](/assets/imgs/)
 
-### How to execute!
-Once packages are installed make sure to run `node index.js` > Answer all prompts! > Your README.md will then be geenrated once done!
+### Note creation page!!!
+![Note creation and management page](/assets/imgs/)
 
-![How to excute in console](./imgs/console.png)
-
-
-### Prompt Examples!
-![Finished console prompts](./imgs/finished.png)
-
-### Final Creation example!
-![Prompt examples!](./imgs/example.png)
-
-These are the main screenshots of how the node functionality should be presented and used!
+These are the main screenshots of how the app should be presented and used!
 
 ## Technologies used!
 I ended up using quite a few different things!
-- HTML, CSS, JavaScript, and Node.js
+- Prettier, Node, Express, HTML, CSS, and JavaScript as well!
 
 ## Credit
 Ismael Jimenez: https://github.com/Idjjurado
@@ -37,24 +32,21 @@ MIT License (see repo)
 ## Acceptance Criteria:
 
 ### User Story!
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
-GIVEN a command-line application that accepts user input
-- WHEN I am prompted for information about my application repository
-    - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-- WHEN I enter my project title
-    - THEN this is displayed as the title of the README
-- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-    - THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-- WHEN I choose a license for my application from a list of options
-    - THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-- WHEN I enter my GitHub username
-    - THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-- WHEN I enter my email address
-    - THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-- WHEN I click on the links in the Table of Contents
-    - THEN I am taken to the corresponding section of the README
-
+GIVEN a note-taking application
+- WHEN I open the Note Taker
+  - THEN I am presented with a landing page with a link to a notes page
+- WHEN I click on the link to the notes page
+  - THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+- WHEN I enter a new note title and the note’s text
+  - THEN a Save icon appears in the navigation at the top of the page
+- WHEN I click on the Save icon
+  - THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+- WHEN I click on an existing note in the list in the left-hand column
+  - THEN that note appears in the right-hand column
+- WHEN I click on the Write icon in the navigation at the top of the page
+  - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
