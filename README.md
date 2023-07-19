@@ -1,6 +1,6 @@
-# Note Taker!!!
+![NOTE TAKER!](public\assets\imgs\logo.png)
 
-link:
+link: https://deku-note-taker-1540c52d78bc.herokuapp.com/
 
 ## Description
 
@@ -15,11 +15,11 @@ populate within the list!
 
 ### Note taker home page!!!
 
-![Home page for note taker](/assets/imgs/)
+![Home page for note taker](public\assets\imgs\notetakerhomepage.png)
 
 ### Note creation page!!!
 
-![Note creation and management page](/assets/imgs/)
+![Note creation and management page](public\assets\imgs\dekustodo.png)
 
 These are the main screenshots of how the app should be presented and used!
 
