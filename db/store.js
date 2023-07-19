@@ -47,7 +47,9 @@ class Store {
       .then(() => newNote);
   }
 
-  removeNote() {
+  // added id to the parameters so that the note with the matching id can be deleted
+  // without the id as the parameter this would be causing errors
+  removeNote(id) {
     return this.getNotes()
       .then((notes) => notes.filter((note) => note.id !== id))
       .then((filteredNotes) => this.write(filteredNotes));
