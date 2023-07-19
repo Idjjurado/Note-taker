@@ -5,6 +5,14 @@ body {
   padding: 0;
 }
 
+#backgimg {
+  background-image: url("/public/assets/imgs/takingnotes.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 .save-note {
   display: none;
 }
