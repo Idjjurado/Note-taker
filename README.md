@@ -15,7 +15,7 @@ populate within the list!
 
 ### Note taker home page!!!
 
-![Home page for note taker](/assets/imgs/notetakerhomepage.png)
+![Home page for note taker](./public/assets/imgs/notetakerhomepage.png)
 
 ### Note creation page!!!
 
